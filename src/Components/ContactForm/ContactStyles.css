@@ -1,0 +1,76 @@
+.container-form{
+    margin: 8rem 6rem;
+    color: #2a2a2a;
+}
+
+.container-form form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.container-form input{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #2a2a2a;
+}
+.container-form textarea{
+    height: auto; 
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+    resize: none;
+}
+
+.container-form button{
+    display: inline;
+
+}
+.container-form button:hover{
+    color: #fff;
+    background-color: #01959a;
+}
+
+.sosmed{
+    padding: 2rem 2rem;
+}
+.sosmed i{
+    color: #2a2a2a;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.sosmed :hover{
+    color: #01959a;
+}
+
+@media screen and (max-width: 768px){
+    .container-form{
+        margin: 4rem 6rem;
+        color: #2a2a2a;
+    }
+    .container-form form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+    .container-form button:hover{
+        color: #fff;
+        background-color: #01959a;
+    }
+    
+    .sosmed{
+        padding: 2rem 2rem;
+    }
+    .sosmed i{
+        color: #2a2a2a;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    .sosmed :hover{
+        color: #01959a;
+    }
+}

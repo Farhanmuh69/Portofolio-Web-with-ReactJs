@@ -1,0 +1,34 @@
+
+.p-card{
+    text-align: center;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem .8rem;
+}
+.p-image{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.p-image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+}
+.p-image:hover img{
+    transform: scale(1.3);
+}
+.p-card h4{
+    font-size: 1.3rem;
+    padding: .9rem 0 .2rem;
+}
+
+@media screen and (max-width: 768px){
+    .p-card{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    
+}

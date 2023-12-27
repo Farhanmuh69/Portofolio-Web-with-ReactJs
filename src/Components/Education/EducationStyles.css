@@ -1,0 +1,78 @@
+.education{
+    margin: 10rem 6rem;
+}
+.education h2{
+    font-size: 2.3rem;
+}
+.education p{
+    text-align: justify;
+}
+
+.educ-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:4.5rem ;
+}
+.educ-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+.educ-text h2{
+    padding-bottom: 2.2rem;
+}
+
+.educ-card{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    border: solid 1px #000;
+
+}
+.educ-card h3{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.educ-card p{
+    text-align: center;
+}
+.card-logo i{
+    font-size: 3rem;
+    padding: 2rem 3rem 4rem 3rem;
+    color: #000;
+}
+
+@media (max-width: 1000px){
+    .education{
+        margin: 10rem 6rem;
+    }
+    .educ-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top:2.5rem ;
+    }
+    .educ-text{
+        width: 100%;
+        margin-top: 4.7rem;
+    }
+    .educ-card{
+        width: 100%;
+        margin-top: 1.8rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem;
+        background-color: #fff;
+        border-radius: 1rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+        border: solid 1px #000;
+    }
+}

@@ -1,0 +1,25 @@
+.skills-container{
+    margin: 10rem 6rem;
+    color: #2a2a2a;
+        
+}
+.skills-container h1{
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+
+.skillscard-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 768px){
+    .skillscard-container{
+        margin: 10rem 2rem;
+    }
+    .skillscard{
+        flex-direction: column;
+    }
+    
+}
